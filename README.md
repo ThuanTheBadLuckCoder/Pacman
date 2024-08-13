@@ -37,4 +37,46 @@ This project is a simple implementation of the classic Pacman game, developed as
 To set up and run the Pacman game on your local machine, follow these steps:
 
 <h3>Prerequisites</h3>
-Make sure you have Python installed. You can download it from <a href="/ThuanTheBadLuckCoder/Pacman/archive/refs/heads/main.zip">here.</a>
+Make sure you have Python installed. You can download it ZIP file or fork repo.
+
+<h3>Setup</h3>
+
+1. Clone the repository:
+
+	`git clone https://github.com/yourusername/pacman-dsa.git`
+
+2. Navigate to the project directory:
+
+	`cd pacman-dsa`
+
+3. Install required dependencies:
+
+	`pip install -r requirements.txt`
+
+4. Run the game:
+
+	`python main.py`
+
+
+<h2>How to Play</h2>
+<ul>
+  <li><strong>Movement:</strong> Use the arrow keys to move Pacman through the maze.</li>
+  <li><strong>Objective:</strong> Eat all the dots in the maze while avoiding ghosts.</li>
+  <li><strong>Educational Mode:</strong> Activate educational mode from the main menu to step through the algorithms used in real-time.</li>
+</ul>
+
+
+<h2>Learning Objectives</h2>
+This project is designed to help you learn and apply the following DSA concepts:
+
+1. <strong>Pathfinding Algorithms: </strong>Understand and implement BFS, DFS, and A* algorithms in a practical context.
+2. <strong>Data Structures: </strong>Use stacks, queues, and priority queues to manage game logic.
+3. <strong>Graph Representation: </strong>Learn how to represent the game maze as a graph and apply graph traversal techniques.
+4. <strong>Algorithm Optimization: </strong>Explore ways to optimize algorithms for real-time gameplay.
+
+<h2>Customization</h2>
+To create custom levels or challenges:
+
+1. Edit the `levels.py` file in the src directory.
+2. Define new maze layouts using 2D arrays.
+3. Customize the behavior of ghosts and other game elements in the `game_logic.py` file.
